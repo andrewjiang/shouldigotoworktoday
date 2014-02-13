@@ -1,0 +1,61 @@
+/* CSS declarations go here */
+html, body{
+	height: 100%;
+}
+body{
+	background-color: rgba(231, 76, 60, 0.4);
+	font-family: 'Varela'; 
+	color: rgba(44, 62, 80,1.0);
+}
+.btn{
+	font-size: 30px;
+	font-weight: 100;
+	margin: 20px 0px;
+	font-family: 'Helvetica Neue';
+}
+a.button-link{
+	text-decoration: none !important;
+}
+.large-text{
+	font-size: 72px;
+	margin-top: 20px;
+	font-weight: 900;
+	font-family: 'Helvetica Neue'
+}
+
+.small-text{
+	margin-top: 200px;
+	font-weight: 200;
+	font-family: 'Helvetica Neue'
+}
+*{
+	margin: 0;
+}
+.wrap{
+	min-height: 100%;
+	margin-bottom: -80px;
+
+}
+.wrap:after;{
+	content: "";
+	display: block;
+}
+.twitter-footer, .wrap:after{
+	height: 80px;
+}
+.twitter-footer{
+	opacity: 0.8;
+}
+.twitter-footer:hover{
+	opacity: 1;
+}
+.twitter-follow-button{
+	right: 0px;
+	position: absolute;
+	bottom: 0px;
+}
+#map-canvas {
+    height: 400px;
+    margin: 0px;
+    margin-top: 20px;
+}
